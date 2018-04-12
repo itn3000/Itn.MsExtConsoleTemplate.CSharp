@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Itn.MsExtConsoleTemplate.CSharp</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <description>console project with Microsoft.Extensions packages</description>
         <authors>itn3000</authors>
         <packageTypes>
