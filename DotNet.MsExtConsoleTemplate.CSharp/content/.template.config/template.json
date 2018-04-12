@@ -1,0 +1,9 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "itn3000",
+    "classifications": [ "Common", "Console" ],
+    "identity": "DotNet.MsExtConsoleTemplate.CSharp",
+    "name": "console project with Microsoft.Extensions packages",
+    "shortName": "msextconsole",
+    "sourceName": "content"
+}
