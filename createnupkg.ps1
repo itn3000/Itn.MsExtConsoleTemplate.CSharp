@@ -1,1 +1,1 @@
-./tools/nuget.exe pack .\DotNet.MsExtConsoleTemplate.CSharp\DotNet.MsExtConsoleTemplate.CSharp.nuspec -OutputDirectory pkg
+./tools/nuget.exe pack .\Itn.MsExtConsoleTemplate.CSharp\Itn.MsExtConsoleTemplate.CSharp.nuspec -OutputDirectory pkg
