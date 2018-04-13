@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "itn3000",
+    "classifications": [ "Common", "Console" ],
+    "identity": "Itn.NewClassTemplate.CSharp",
+    "name": "console project with Microsoft.Extensions packages",
+    "shortName": "newclass",
+    "sourceName": "MyClass",
+    "tags": {
+        "language": "C#",
+        "type":"item"
+    },
+    "symbols": {
+        "namespace":{
+            "type": "parameter",
+            "datatype":"text",
+            "defaultValue": "MyNamespace",
+            "replaces": "MyNamespace"
+        }
+    }
+}
