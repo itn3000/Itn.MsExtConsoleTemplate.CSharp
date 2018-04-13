@@ -30,4 +30,9 @@ run the following command
 
 ## disable template
 
-`dotnet new -u Itn.MsExtConsoleTemplate.CSharp
+`dotnet new -u [template id]`
+
+IDs are here;
+
+* Itn.MsExtConsoleTemplate.CSharp
+* Itn.NewClassTemplate.CSharp
