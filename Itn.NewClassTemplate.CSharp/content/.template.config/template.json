@@ -15,7 +15,8 @@
             "type": "parameter",
             "datatype":"text",
             "defaultValue": "MyNamespace",
-            "replaces": "MyNamespace"
+            "replaces": "MyNamespace",
+            "isRequired": true
         }
     }
 }
