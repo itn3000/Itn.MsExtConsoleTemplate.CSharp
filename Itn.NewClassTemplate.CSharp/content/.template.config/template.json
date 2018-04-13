@@ -3,7 +3,7 @@
     "author": "itn3000",
     "classifications": [ "Common", "Console" ],
     "identity": "Itn.NewClassTemplate.CSharp",
-    "name": "console project with Microsoft.Extensions packages",
+    "name": "create new class",
     "shortName": "newclass",
     "sourceName": "MyClass",
     "tags": {
