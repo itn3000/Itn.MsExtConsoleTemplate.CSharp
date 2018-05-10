@@ -36,3 +36,4 @@ IDs are here;
 
 * Itn.MsExtConsoleTemplate.CSharp
 * Itn.NewClassTemplate.CSharp
+* Itn.MsMLIrisTemplate.CSharp

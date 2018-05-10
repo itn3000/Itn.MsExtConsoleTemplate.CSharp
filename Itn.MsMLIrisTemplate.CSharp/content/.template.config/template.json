@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "itn3000",
+    "classifications": [ "Common", "Console" ],
+    "identity": "Itn.MsMLIrisTemplate.CSharp",
+    "name": "ML.NET with Iris console app template",
+    "shortName": "msmliris",
+    "sourceName": "content",
+    "tags": {
+        "language": "C#",
+        "type":"project"
+    }
+}
