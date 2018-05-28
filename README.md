@@ -26,7 +26,7 @@ run the following command
 
 run the following command
 
-`dotnet new msextconsole --name [yourprojectname]`
+`dotnet new [templateshortname] --name [yourprojectname]`
 
 ## disable template
 
@@ -34,6 +34,7 @@ run the following command
 
 IDs are here;
 
+* Itn.CakeBuildTemplate
 * Itn.MsExtConsoleTemplate.CSharp
 * Itn.NewClassTemplate.CSharp
 * Itn.MsMLIrisTemplate.CSharp

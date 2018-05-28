@@ -1,0 +1,83 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "itn3000",
+    "classifications": [ "Common", "Console" ],
+    "identity": "Itn.CakeBuildTemplate",
+    "name": "Cake project",
+    "shortName": "cakeproject",
+    "sourceName": "content",
+    "tags": {
+        "type":"project"
+    },
+    "preferNameDirectory": true,
+    "symbols": {
+        "platform":{
+            "type":"parameter",
+            "datatype":"choice",
+            "choices": [
+                {
+                    "choice": "windows",
+                    "description": "Windows"
+                },
+                {
+                    "choice": "linux",
+                    "description": "Linux"
+                },
+                {
+                    "choice": "mac",
+                    "description": "Mac"
+                }
+            ],
+            "description": "bootstrapper platform",
+            "isRequired": true,
+            "defaultValue": "windows"
+        }
+    },
+    "postActions": [
+        {
+            "condition": "(platform == \"windows\")",
+            "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+            "args": {
+                "executable": "powershell",
+                "args": "Invoke-WebRequest https://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1"
+            },
+            "manualInstructions": [
+                {
+                    "text": "Invoke-WebRequest https://cakebuild.net/download/bootstrapper/windows -OutFile build.ps1"
+                }
+            ],
+            "description": "get bootstrap file for cake",
+            "continueOnError": false
+        },
+        {
+            "condition": "(platform == \"linux\")",
+            "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+            "args": {
+                "executable": "powershell",
+                "args": "curl -Lsfo build.sh https://cakebuild.net/download/bootstrapper/linux"
+            },
+            "manualInstructions": [
+                {
+                    "text": "curl -Lsfo build.sh https://cakebuild.net/download/bootstrapper/linux"
+                }
+            ],
+            "description": "get bootstrap file for cake",
+            "continueOnError": false
+        },
+        {
+            "condition": "(platform == \"mac\")",
+            "actionId": "3A7C4B45-1F5D-4A30-959A-51B88E82B5D2",
+            "args": {
+                "executable": "powershell",
+                "args": "curl -Lsfo build.sh https://cakebuild.net/download/bootstrapper/mac"
+            },
+            "manualInstructions": [
+                {
+                    "text": "curl -Lsfo build.sh https://cakebuild.net/download/bootstrapper/mac"
+                }
+            ],
+            "description": "get bootstrap file for cake",
+            "continueOnError": false
+        }
+    ]
+}
