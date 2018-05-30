@@ -10,5 +10,8 @@
             <packageType name="Template"/>
         </packageTypes>
         <licenseUrl>https://raw.githubusercontent.com/itn3000/Itn.MsExtConsoleTemplate.CSharp/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/itn3000/Itn.MsExtConsoleTemplate.CSharp</projectUrl>
+        <copyright>Copyright 2018 Itn3000</copyright>
+        <tags>dotnet template csharp</tags>
     </metadata>
 </package>
