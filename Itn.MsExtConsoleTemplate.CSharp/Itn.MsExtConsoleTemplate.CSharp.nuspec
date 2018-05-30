@@ -9,5 +9,6 @@
         <packageTypes>
             <packageType name="Template"/>
         </packageTypes>
+        <licenseUrl>https://raw.githubusercontent.com/itn3000/Itn.MsExtConsoleTemplate.CSharp/master/LICENSE</licenseUrl>
     </metadata>
 </package>
