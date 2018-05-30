@@ -39,3 +39,9 @@ IDs are here;
 * Itn.NewClassTemplate.CSharp
 * Itn.MsMLIrisTemplate.CSharp
 * Itn.BDNTemplate.CSharp
+
+## published packages
+
+following templates are published in nuget.org.
+
+* [Itn.BDNTemplate.CSharp](https://www.nuget.org/packages/Itn.BDNTemplate.CSharp)
