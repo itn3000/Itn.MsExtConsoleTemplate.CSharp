@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Itn.BDNTemplate.CSharp</id>
+        <version>1.0.0</version>
+        <description>BenchmarkDotNet project</description>
+        <authors>itn3000</authors>
+        <packageTypes>
+            <packageType name="Template"/>
+        </packageTypes>
+    </metadata>
+</package>

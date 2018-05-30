@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "itn3000",
+    "classifications": [ "Common", "Console" ],
+    "identity": "Itn.BDNTemplate.CSharp",
+    "name": "BenchmarkDotNet project",
+    "shortName": "bdn",
+    "sourceName": "mybenchmark",
+    "tags": {
+        "language": "C#",
+        "type":"project"
+    },
+    "preferNameDirectory": true,
+    "symbols": {
+        "classname":{
+            "type": "parameter",
+            "defaultValue": "MyBenchmarkClass",
+            "description": "benchmark class name",
+            "datatype":"text",
+            "replaces": "MyBenchmarkClass"
+        },
+        "isupdate":{
+            "type": "parameter",
+            "datatype":"bool",
+            "description": "update BenchmarkDotNet package version to latest stable",
+            "defaultValue": "true"
+        }
+    },
+    "postActions": [
+        {
+            "actionId":"B17581D1-C5C9-4489-8F0A-004BE667B814",
+            "description": "update BenchmarkDotNet to latest stable version",
+            "referenceType": "package",
+            "condition": "(isupdate)",
+            "args": {
+                "referenceType": "package",
+                "reference": "BenchMarkDotNet",
+                "forceUpdate": "true"
+            },
+            "manualInstructions": [
+                {
+                    "text": "dotnet add package BenchmarkDotNet"
+                }
+            ]
+        }
+    ]
+}
